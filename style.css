@@ -1,0 +1,170 @@
+body {
+  height: 400vh;
+}
+.topCaro {
+  border: solid tan;
+  display: flex;
+  height: 45px;
+}
+.left {
+  border: solid black;
+  width: 30%;
+}
+.mid {
+  border: solid red;
+  width: 40%;
+}
+.right {
+  border: solid black;
+  width: 30%;
+}
+
+.navBar {
+  border: solid blue;
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+}
+.iconContainer {
+  height: 40%;
+  padding-top: 21px;
+}
+.logoContainer {
+  border: solid green;
+  width: 55%;
+}
+.icons {
+  height: 100%;
+}
+
+.optionContainer {
+  border: solid lightblue;
+  border-width: 2px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+.options {
+  border: solid Orange;
+  width: 8%;
+  font-size: 23px;
+}
+.smFilter {
+  display: flex;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.topContainer {
+  border: solid purple;
+  /* height: 92vh; */
+}
+.imageContainer {
+  border: solid gold;
+  /* height: 60%; */
+}
+.alba {
+  width: 100%;
+}
+.textContainer {
+  border: solid salmon;
+  padding: 1.5em;
+  font-family: serif;
+}
+.topText {
+  text-align: center;
+  font-size: 55px;
+}
+.tText {
+  text-align: center;
+  font: 32px;
+}
+
+.picRow {
+  /* border: solid yellow; */
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  margin: 12px;
+}
+.pProduct {
+  border: double black;
+  margin: 2em;
+}
+.imageP {
+  height: 300px;
+}
+.descriptionP {
+  font-size: 32px;
+  text-align: center;
+}
+.premierContainer {
+  /* border: solid black; */
+  margin: 1em;
+}
+
+.filterContainer {
+  display: flex;
+  /* border: solid black; */
+  font-size: 32px;
+}
+.fylter {
+  border: solid red;
+  border-width: 2px;
+  margin-left: 25px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.majorContainer {
+  border: solid pink;
+  margin: 7%;
+  /* height: 120vh; */
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.produx {
+  border: solid orange;
+  width: 250px;
+  height: 400px;
+  margin: 2em;
+}
+.pxImg {
+  width: 100%;
+}
+.tt,
+.price {
+  font-size: 28px;
+  margin: 12px;
+  text-align: center;
+}
+.starContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.star {
+  /* width: 100%; */
+  height: 40px;
+}
+.shower {
+  border: solid grey;
+  border-width: 9px;
+  border-radius: 22px;
+  background-color: aliceblue;
+  font-size: 42px;
+  text-align: center;
+  opacity: 0.5;
+  margin: 2em;
+}
+.shower:hover {
+  background-color: green;
+  border: solid black;
+  border-width: 9px;
+  border-radius: 22px;
+  color : white;
+  font-size: 42px;
+  text-align: center;
+  margin: 2em;
+  opacity: 1;
+}
